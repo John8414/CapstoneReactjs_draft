@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,OAAO;EACjB,OAAO,EAAE,EAAE;EEqDX,gBAAgB,EAAE,wDAA+D;CFnDpF",
+    "sources": [
+        "../home/index.scss",
+        "../../styles/_variables.scss",
+        "../../styles/_mixin.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

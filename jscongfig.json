@@ -1,0 +1,8 @@
+{
+   "complierOtions" : {
+      "baseUrl": "./src",
+      "path": {
+         "assets": "assets"
+      }
+   }
+}

@@ -1,5 +1,6 @@
 import "./index.scss";
 import React from 'react';
+import IconCgv from "../icon/IconCgv";
 
 export default function Footer() {
     return (
@@ -11,7 +12,8 @@ export default function Footer() {
                         <ul className="nav">
                             <li className="nav-item">
                                 <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cgv.png" alt="cgvFooter" />
+                                    {/* <img className="brand__footer" src="./images/cgv.png" alt="cgvFooter" /> */}
+                                    <IconCgv />
                                 </a>
                             </li>
                             <li className="nav-item">

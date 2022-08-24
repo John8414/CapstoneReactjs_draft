@@ -1,0 +1,7 @@
+.bg__wrapper {
+  position: inherit;
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#d819a53b), color-stop(#0562a938), to(#7259c522));
+  background-image: linear-gradient(to top, #d819a53b, #0562a938, #7259c522);
+}
+/*# sourceMappingURL=index.css.map */

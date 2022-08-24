@@ -1,0 +1,16 @@
+.schedule .cinema__nav {
+  text-transform: uppercase;
+}
+
+.schedule .cinema__nav.active {
+  background-color: transparent !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d819a53b), color-stop(#0562a938), to(#7259c522));
+  background-image: linear-gradient(to right, #d819a53b, #0562a938, #7259c522);
+}
+
+.schedule .cinema__logo {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */
