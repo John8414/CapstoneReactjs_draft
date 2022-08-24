@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+@import '../../styles/mixin';
+
+.schedule {
+
+    .cinema__nav {
+        text-transform: uppercase;
+
+        &.active {
+            background-color: transparent !important;
+            @include bgGradient(right);
+        }
+    }
+
+    .cinema__logo {
+        @include img(10rem, 10rem)
+    }
+}

@@ -1,0 +1,175 @@
+import "./index.scss";
+import React from 'react';
+
+export default function Footer() {
+    return (
+        <section className="pt-5 footer">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4">
+                        <h1 className="text-center">Brands</h1>
+                        <ul className="nav">
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cgv.png" alt="cgvFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
+                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
+                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-3">
+                        <h1 className="text-center">Contact Us</h1>
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <iframe className="vw-25" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.698849027608!2d106.66066231511415!3d10.75767679233425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f84395debb7%3A0xd031403ec35b96b8!2sVNET%20Coffee%20Gaming!5e0!3m2!1sen!2s!4v1660823599633!5m2!1sen!2s" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link p-0" href="https://goo.gl/maps/TVMiX7a1m1Rw1qKm6" target="_blank">
+                                    Address: 33 Nguyễn Kim
+                                    st, w.12, Dis.5</a>
+                            </li>
+                            <li className="nav-item">
+                                Tax: 2354234523454345
+                            </li>
+                            <li className="nav-item">
+                                Find us at:
+                                <ul className="nav">
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">
+                                            <i className="fab fa-facebook" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">
+                                            <i className="fab fa-instagram-square" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">
+                                            <i className="fab fa-telegram" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-3">
+                        <h1 className="text-center">News</h1>
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    About us
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    Mission
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    Society
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    Work with us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-2">
+                        <h1 className="text-center">Available on:</h1>
+                        <ul className="nav ">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    <img className="img-fluid" src="./images/appStore.png" alt="AS" />
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    <img className="img-fluid" src="./images/googlePlay.png" alt="GP" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
