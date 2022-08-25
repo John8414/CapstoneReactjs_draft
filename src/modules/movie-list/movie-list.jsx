@@ -27,15 +27,16 @@ export default function MovieList() {
             {/* item */}
             <div className="thumb__item">
               <img
-                className="img-thumbnail"
+                className="my-2 thumb-img "
                 src={ele.hinhAnh}
                 alt="movie" />
             </div>
             {/* overlay  */}
             <div className="thumb__overlay">
-              <h2 className="thumb__title">
+              <h6 className="thumb__title text-danger">
                 {ele.tenPhim}
-              </h2>
+              </h6>
+
               <p className="thumb__describe">
                 {ele.moTa}
               </p>

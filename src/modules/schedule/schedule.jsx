@@ -1,8 +1,9 @@
 import "./index.scss";
 import React, { useState } from 'react';
 import { fetchMovieScheduleApi } from "../../services/cinema";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
+import moment from "moment";
 
 export default function Schedule() {
     const [schedule, setSchedule] = useState({});
@@ -10,7 +11,7 @@ export default function Schedule() {
     const params = useParams();
     useEffect(() => {
         fetchMovieSchedule();
-    });
+    }, []);
     const fetchMovieSchedule = async () => {
         const result = await fetchMovieScheduleApi(params.movieId);
         setSchedule(result.data.content);
@@ -37,7 +38,7 @@ export default function Schedule() {
                 <div
                     key={ele.maHeThongRap}
                     id={ele.maHeThongRap}
-                    className={`container m-auto tab-pane fade ${idx === 0 && 'active'}`}
+                    className={`container m-auto tab-pane ${idx === 0 && 'active'}`}
                 >
                     {
                         ele.cumRapChieu.map((ele) => {
@@ -45,11 +46,11 @@ export default function Schedule() {
                                 <div
                                     key={ele.maCumRap}
                                     className="row mb-5">
-                                    <div className="col-1">
+                                    {/* <div className="col-1">
                                         <img className="img-fluid rounded"
                                             src={ele.hinhAnh} />
-                                    </div>
-                                    <div className="col-11 pl-0">
+                                    </div> */}
+                                    <div className="col-12 pl-0">
                                         <h5>{ele.tenCumRap}</h5>
                                         <span className="text-muted">{ele.diaChi}</span>
                                     </div>
@@ -60,7 +61,9 @@ export default function Schedule() {
                                                     <div
                                                         key={ele.maLichChieu}
                                                         className="col-3">
-                                                        <a href="#">2022-12-12T09:30:00</a>
+                                                        <Link to={`/booking/${ele.maLichChieu}`}>
+                                                            {moment(ele.ngayChieuGioChieu).format('LLL')}
+                                                        </Link>
                                                     </div>
                                                 );
                                             })}
@@ -69,8 +72,9 @@ export default function Schedule() {
                                 </div>
 
                             );
-                        })}
-                </div>);
+                        })
+                    }
+                </div >);
         });
     };
 

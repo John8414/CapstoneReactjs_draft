@@ -7,8 +7,6 @@ export default function Home() {
         <>
             {/* start thumbnails  */}
             <MovieList />
-            {/* start shows schedule  */}
-            <Schedule />
         </>
     );
 }

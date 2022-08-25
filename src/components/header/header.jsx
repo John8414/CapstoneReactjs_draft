@@ -1,6 +1,7 @@
 import "./index.scss";
 import React from 'react';
 import { useNavigate } from "react-router-dom";
+import { IconLogo } from "../icon";
 
 export default function Header() {
     const navigate = useNavigate();
@@ -8,8 +9,10 @@ export default function Header() {
         < header className="pb-5 header" >
             <nav className="navbar navbar-expand-md">
                 {/* Brand */}
-                <a className="navbar-brand" href="#">
-                    <img className=" img__logo" src="./images/kisspng-film-cinema-logo-5af2add6c10105.9613806115258536547906-removebg-preview.png" alt="logo" />
+                <a className="navbar-brand"
+                    onClick={() => navigate('/')}
+                >
+                    <IconLogo />
                 </a>
                 {/* Toggler/collapsibe Button */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

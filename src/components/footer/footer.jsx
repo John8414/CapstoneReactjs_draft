@@ -1,15 +1,19 @@
 import "./index.scss";
 import React from 'react';
-import IconCgv from "../icon/IconCgv";
+import IconCgv from "../icon/icon-cgv";
+import { IconBhd, IconGPlay } from "../icon";
+import IconLotte from "../icon/icon-lotte";
+import IconCinestar from "../icon/icon-cinestar";
+import IconAppStore from "../icon/icon-app-store";
 
 export default function Footer() {
     return (
         <section className="pt-5 footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                         <h1 className="text-center">Brands</h1>
-                        <ul className="nav">
+                        <ul className="nav justify-content-around">
                             <li className="nav-item">
                                 <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
                                     {/* <img className="brand__footer" src="./images/cgv.png" alt="cgvFooter" /> */}
@@ -17,73 +21,18 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
+                                <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
+                                    <IconBhd />
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
+                                    <IconLotte />
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://cinestar.com.vn/" target="_blank">
-                                    <img className="brand__footer" src="./images/cinestar.png" alt="cinesFooter" />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.lottecinemavn.com/LCHS/Contents/Movie/Movie-List.aspx" target="_blank">
-                                    <img className="brand__footer" src="./images/lotte.png" alt="lotteFooter" />
+                                <a className="nav-link" href="https://www.cgv.vn/" target="_blank">
+                                    <IconCinestar />
                                 </a>
                             </li>
                         </ul>
@@ -155,17 +104,17 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-3">
                         <h1 className="text-center">Available on:</h1>
                         <ul className="nav ">
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <img className="img-fluid" src="./images/appStore.png" alt="AS" />
+                                    <IconAppStore />
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <img className="img-fluid" src="./images/googlePlay.png" alt="GP" />
+                                    <IconGPlay />
                                 </a>
                             </li>
                         </ul>

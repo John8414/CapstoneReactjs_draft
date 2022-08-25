@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+@import '../../styles/mixin';
+
+.seat {
+    border: solid 2px rgb(188, 97, 97);
+    border-radius: 5px;
+    width: 3em;
+    height: 2em;
+    padding: .3em;
+    margin: .4em;
+    text-align: center;
+}
