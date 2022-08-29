@@ -7,4 +7,12 @@ const fetchRoomListApi = (maLichChieu) => {
     });
 };
 
-export { fetchRoomListApi };
+const bookingTicketApi = (data) => {
+    return request({
+        url: `/QuanLyDatVe/DatVe`,
+        method: 'POST',
+        data,
+    });
+};
+
+export { fetchRoomListApi, bookingTicketApi };
